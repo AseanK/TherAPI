@@ -1,0 +1,66 @@
+/* F6F4EB  base*/
+/* 91C8E4 light blue */
+/* 749BC2 darkblue */
+/* 4682A9 darker */
+
+.navbar {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.landing {
+    height: 100vh;
+    width: 100vw;
+    background-position: center; 
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.beach-landing {
+    background-image: url('https://images.unsplash.com/photo-1501696461415-6bd6660c6742?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80');
+    /* background-image: url('https://media4.giphy.com/media/3og0Ix8tq5zyKybM9a/giphy.gif?cid=ecf05e47mqu36sft9n7its6k6il5gq02hahg7lgug89u1y8x&ep=v1_gifs_search&rid=giphy.gif&ct=g'); */
+}
+
+.fire-landing {
+    background-image: url('https://images.unsplash.com/photo-1507048947301-7afc2aca0edc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2372&q=80');
+}
+
+.forest-landing {
+    background-image: url('https://images.unsplash.com/photo-1547140741-00d6fd251528?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80');
+}
+
+.rainy-landing {
+    background-image: url('https://images.unsplash.com/photo-1556485689-33e55ab56127?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80');
+}
+
+.river-landing {
+    background-image: url('https://images.unsplash.com/photo-1689774036065-0d30187e3592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+}
+
+.space-landing {
+    background-image: url('https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+}
+
+/* .snow-landing {
+    background-image: url();
+} */
+
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #3498db;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-button:hover {
+    background-color: #2980b9;
+}
