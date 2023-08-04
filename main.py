@@ -41,6 +41,12 @@ def fire():
     return render_template("fire.html")
 
 
+@app.route("/snow")
+def snow():
+    return render_template("snow.html")
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 

@@ -24,7 +24,7 @@
 }
 
 .forest-landing {
-    background-image: url('https://images.unsplash.com/photo-1547140741-00d6fd251528?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80');
+    background-image: url('https://images.unsplash.com/photo-1586957469525-7850e7bef283?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
 }
 
 .rainy-landing {
@@ -39,9 +39,9 @@
     background-image: url('https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
 }
 
-/* .snow-landing {
-    background-image: url();
-} */
+.snow-landing {
+    background-image: url('https://images.unsplash.com/photo-1574780879552-9c07b351ea86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2952&q=80');
+}
 
 
 .play-button {
