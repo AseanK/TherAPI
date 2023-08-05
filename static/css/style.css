@@ -7,6 +7,24 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    color: #F6F4EB;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #F6F4EB;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #F6F4EB;
+}
+
 .navbar {
     background-color: rgba(0, 0, 0, .3);
 }
@@ -25,7 +43,7 @@ body {
     border-width: 2px;
     border-style: solid;
     border-radius: 15px;
-    background-color: whitesmoke;
+    background-color: #F6F4EB;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -54,42 +72,101 @@ body {
     vertical-align: bottom;
 }
 
+.user-message, .assistant-message {
+    padding: 5px 2px;
+}
+
+.modal-content {
+    background-color: #749BC2;
+}
+
 /* Themes */
 .main-landing {
-    background-image: url('https://images.unsplash.com/photo-1581783350171-15a0fc91d955?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80');
+    background-image: url('https://images.unsplash.com/photo-1486246772917-8947d0f7f541?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1335&q=80');
 }
 
 .beach-landing {
     background-image: url('https://images.unsplash.com/photo-1501696461415-6bd6660c6742?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80');
 }
+.beach {
+    background-color: rgba(62, 162, 229, 0.8);
+}
+.beach:hover {
+    background-color: rgba(52, 152, 219, 0.8);
+}
 
 .fire-landing {
     background-image: url('https://images.unsplash.com/photo-1507048947301-7afc2aca0edc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2372&q=80');
+}
+.fire {
+    background-color: rgba(239, 98, 98, 0.8);
+}
+.fire:hover {
+    background-color: rgba(229, 88, 88, 0.8);
 }
 
 .forest-landing {
     background-image: url('https://images.unsplash.com/photo-1586957469525-7850e7bef283?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
 }
+.forest {
+    background-color: rgba(170, 200, 167, 0.8);
+}
+.forest:hover {
+    background-color: rgba(160, 190, 157, 0.8);
+}
 
 .rainy-landing {
     background-image: url('https://images.unsplash.com/photo-1556485689-33e55ab56127?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80');
+}
+.rainy {
+    background-color: rgba(67, 91, 102, 0.8);
+}
+.rainy:hover {
+    background-color: rgba(57, 81, 92, 0.8);
 }
 
 .river-landing {
     background-image: url('https://images.unsplash.com/photo-1689774036065-0d30187e3592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
 }
+.river {
+    background-color: rgba(23, 89, 74, 0.8);
+}
+.river:hover {
+    background-color: rgba(13, 79, 64, 0.8);
+}
 
 .space-landing {
     background-image: url('https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
+}
+.space {
+    background-color: rgba(66, 66, 66, 0.8);
+}
+.space:hover {
+    background-color: rgba(56, 56, 56, 0.8);
 }
 
 .snow-landing {
     background-image: url('https://images.unsplash.com/photo-1574780879552-9c07b351ea86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2952&q=80');
 }
+.snow {
+    background-color: rgba(238, 238, 238, .8);
+}
+.snow:hover {
+    background-color: rgba(228, 228, 228, .8);
+}
 
 .quote-container {
     background-color: rgba(0, 0, 0, 0.3);
-    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.btn {
+    border-color: #91C8E4;
+    color: #91C8E4;
+}
+
+.btn:hover {
+    background-color: rgba(41, 128, 185, 0.8);
 }
 
 .play-button {
@@ -100,15 +177,10 @@ body {
     font-size: 36px;
     cursor: pointer;
     color: #ffffff;
-    background-color: #3498db;
     clip-path: polygon(25% 0, 25% 100%, 100% 50%);
     width: 80px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.play-button:hover {
-    background-color: #2980b9;
 }

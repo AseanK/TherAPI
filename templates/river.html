@@ -6,7 +6,15 @@
 
 {% block content %}
 <div class="river-landing landing">
-    <div class="play-button" onclick="playAudio()"></div>
+    <div class="quote-box py-5">
+        <div class="row justify-content-center py-5">
+            <div class="col col-8 py-3 quote-container">
+                <h3>{{ quote[0].quote }}</h3>
+                <p class="text-end">- {{ quote[0].author }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="play-button river" onclick="playAudio()"></div>
 </div>
 <audio id="audio" autoplay controls loop preload="auto" style="display: none;">
     <source src="{{ url_for('static', filename='sound/river.mp3')}}" type="audio/mpeg">
