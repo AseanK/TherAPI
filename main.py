@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config["SECRET_KEY"] = config.Config.SECRET_KEY
 
 # openAI messages
-messages = [{"role": "system", "content": "You're a therapist, help user calm and relax. Be polite and if the user's content is irrelevant to mental health, let them know that your a therapist but still give them your answer. The website contains Beach, Forest, Fire, Rain, River, Snow, and Space theme. Suggest one of the theme that is rellavent to user's emotion."}]
+messages = [{"role": "system", "content": "You're a therapist, help user calm and relax. Be polite and if the user's content is irrelevant to mental health, let them know that your a therapist but still give them your answer. The website contains Beach, Forest, Fire, Rain, River, Snow, and Space theme. Suggest one of the theme that is rellavent to user's emotion. Beach theme is good for uplifting the mood, Forest is good for relaxing, Fire is good for warmth, Rain is good for taking a break, River is good for relaxing, Snow is good for cooling, and Space is good for meditating, but everything comes down to personal preference."}]
 
 
 # API call
@@ -21,6 +21,7 @@ def get_quote():
 
 @app.route("/")
 def home():
+    # print(get_quote())
     return render_template("index.html")
 
 
@@ -40,7 +41,7 @@ def chat():
 
 @app.route("/beach")
 def beach():
-    return render_template("beach.html", quote=get_quote())
+    return render_template("beach.html")
 
 
 @app.route("/forest")

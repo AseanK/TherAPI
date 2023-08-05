@@ -3,8 +3,9 @@
 /* 749BC2 darkblue */
 /* 4682A9 darker */
 
-body {
+body, html {
     overflow: hidden;
+    transition: 0.3s ease-in-out;
 }
 
 h1 {
@@ -35,6 +36,7 @@ p, li {
     font-weight: 400;
     color: #F6F4EB;
 }
+
 
 /* Bubble */
 #bubble div {
@@ -171,7 +173,8 @@ p, li {
     z-index: 1;
 }
 .landing-content {
-    padding-top: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .messages {
@@ -199,6 +202,12 @@ p, li {
 .modal-content {
     background-color: #749BC2;
 }
+
+.quote-box {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 
 /* Themes */
 .main-landing {
@@ -278,6 +287,7 @@ p, li {
 .quote-container {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    width: 30%;
 }
 
 .btn {
@@ -290,17 +300,11 @@ p, li {
 }
 
 .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 36px;
     cursor: pointer;
     color: #ffffff;
     clip-path: polygon(25% 0, 25% 100%, 100% 50%);
     width: 80px;
     height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: none;
 }

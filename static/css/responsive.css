@@ -14,4 +14,8 @@
     .landing-content {
         padding-top: 100px;
     }
+
+    .quote-container {
+        width: 100%;
+    }
 }
