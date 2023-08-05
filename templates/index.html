@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block content %}
+<div id="bubble"></div>
 <div class="main-landing landing">
     <div class="row justify-content-center landing-content">
         <div class="col-md-4 message-box">
@@ -59,4 +60,16 @@
         </div>
     </div>
 </div>
+
+<script>
+    let container = document.getElementById("bubble")
+    for (let i = 0; i < 15; i++) {
+        let bubbleDiv = document.createElement("div")
+        let bubbleBox = document.createElement("span")
+
+        bubbleBox.className = "dot";
+        bubbleDiv.appendChild(bubbleBox)
+        container.appendChild(bubbleDiv);
+    }
+</script>
 {% endblock %}
