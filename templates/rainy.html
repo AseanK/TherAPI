@@ -5,16 +5,18 @@
 {% endblock %}
 
 {% block content %}
-<div class="rainy-landing landing">
-    <div class="quote-box py-5">
-        <div class="row justify-content-center py-5">
-            <div class="col col-8 py-3 quote-container">
+<div class="rainy-landing landing d-flex">
+    <div class="quote-box">
+        <div class="row justify-content-end">
+            <div class="col-4 py-5 px-5 quote-container">
                 <h3>{{ quote[0].quote }}</h3>
-                <p class="text-end">- {{ quote[0].author }}</p>
+                <p class="text-end my-5">- {{ quote[0].author }}</p>
+            </div>
+            <div class="col-4 py-3 mt-auto">
+                <div class="play-button rainy" onclick="playAudio()"></div>
             </div>
         </div>
     </div>
-    <div class="play-button rainy" onclick="playAudio()"></div>
 </div>
 <audio id="audio" autoplay controls loop preload="auto" style="display: none;">
     <source src="{{ url_for('static', filename='sound/rain.mp3')}}" type="audio/mpeg">
