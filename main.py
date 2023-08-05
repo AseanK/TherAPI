@@ -40,7 +40,7 @@ def chat():
 
 @app.route("/beach")
 def beach():
-    return render_template("beach.html")
+    return render_template("beach.html", quote=get_quote())
 
 
 @app.route("/forest")

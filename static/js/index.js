@@ -1,3 +1,13 @@
+let container = document.getElementById("bubble")
+for (let i = 0; i < 15; i++) {
+    let bubbleDiv = document.createElement("div")
+    let bubbleBox = document.createElement("span")
+
+    bubbleBox.className = "dot";
+    bubbleDiv.appendChild(bubbleBox)
+    container.appendChild(bubbleDiv);
+}
+
 function playAudio() {
     var audio = document.getElementById("audio");
     audio.play();

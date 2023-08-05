@@ -19,6 +19,17 @@ h3 {
     color: #F6F4EB;
 }
 
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #91C8E4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 p, li {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;

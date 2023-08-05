@@ -1,0 +1,17 @@
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+    .message-box {
+        width: 80vw;
+    }
+
+    .nav-item a {
+        font-size: 10px;
+    }
+
+    .landing-content {
+        padding-top: 100px;
+    }
+}
