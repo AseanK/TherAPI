@@ -1,6 +1,6 @@
 ## 💡 Inspiration
 A study conducted by [the American Institute of Stress](https://www.stress.org/stress-level-of-americans-is-rising-rapidly-in-2022-new-study-finds) in April 2022 shows the stress level of Americans is rising rapidly. Most of us don't realize how the stressful environment surrounds us every day in life, and 
-to make it worse, we may not know how to deal with stress. TherAPI is the solution to this problem.
+to make it worse, we may not know how to deal with stress. [TherAPI](https://ther-api-c28b9e2ec410.herokuapp.com) is the solution to this problem.
 
 ## 🔍 What it does
 TherAPI is a website that aims to help anyone who seeks to reduce their stress level, take a break, seek professional advice, share their thoughts, or even focus on their work. 
