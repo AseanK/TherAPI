@@ -4,7 +4,7 @@ the stress level of Americans is rising rapidly. Most of us don't realize how th
 TherAPI is the solution to this problem.
 
 ## 🔍 What it does
-TherAPI is a website that aims at anyone who seeks to reduce their stress level, take a break, seek professional advice, or even share their thoughts.
+TherAPI is a website that aims at anyone who seeks to reduce their stress level, take a break, seek professional advice, share their thoughts, or even focus on their work.
 TherAPI has three main components users can interact with.
 - An AI therapist chatbot that is customized to the website.
 - Various nature-themed platforms where users can immerse themselves in serene natural landscapes.
